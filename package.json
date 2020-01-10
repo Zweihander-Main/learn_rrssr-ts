@@ -9,8 +9,8 @@
 		"dev-public": "webpack -w --config webpack.dev.js",
 		"build": "NODE_ENV='production' webpack --config webpack.prod.js",
 		"build-win": "SET NODE_ENV='production' && webpack --config webpack.prod.js",
-		"serve": "node server.js",
-		"prod": "run-s build serve",
+		"start": "node server.js",
+		"prod": "run-s build start",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Zweihänder",
