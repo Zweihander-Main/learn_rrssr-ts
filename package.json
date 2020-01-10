@@ -13,6 +13,9 @@
 		"prod": "run-s build start",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"engines": {
+		"node": "12.x"
+	},
 	"author": "Zweihänder",
 	"license": "MIT",
 	"description": "TypeScript implementation of Tyler McGinnis's react router server side rendering app.",
