@@ -64,7 +64,12 @@ app.get('*', (req, res, next) => {
 		.catch(next);
 });
 
-app.listen(3000, () => {
+let port = process.env.PORT;
+if (!port || port === null || port === '') {
+	port = '3000';
+}
+
+app.listen(port, () => {
 	// eslint-disable-next-line no-console
-	console.log('Server is listening on port: 3000');
+	console.log(`Server is listening on port: ${port}`);
 });
