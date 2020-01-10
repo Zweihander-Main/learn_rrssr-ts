@@ -1,6 +1,6 @@
 # RRSSR-TS (React-router Server-side-rendering TypeScript Edition)
 
-> TypeScript implementation of server-side-rendering app originally by [tylermcginnis](https://github.com/tylermcginnis/). [Live demo](https://todo.com)
+> TypeScript implementation of server-side-rendering app originally by [tylermcginnis](https://github.com/tylermcginnis/). [Live demo](https://rrssrr-ts.herokuapp.com/)
 
 ### Tech stack:
 
@@ -13,7 +13,7 @@
 
 ### Live demo:
 
-[Available at github-battle.zweisolutions.com](https://todo.com)
+[Available at https://rrssrr-ts.herokuapp.com/](https://rrssrr-ts.herokuapp.com/)
 
 ### Instructions
 
