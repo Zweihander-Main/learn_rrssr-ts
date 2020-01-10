@@ -8,7 +8,7 @@ const browserConfig = merge.smart(browserConfigCommon, {
 	mode: 'production',
 });
 
-const serverConfig = merge.smart(browserConfigCommon, {
+const serverConfig = merge.smart(serverConfigCommon, {
 	mode: 'production',
 });
 
